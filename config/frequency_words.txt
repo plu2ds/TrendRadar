@@ -30,38 +30,44 @@ HarmonyOS
 xiaomi
 特斯拉
 
-马斯克
 微软
-Microsoft
-黄仁勋
 英伟达
+谷歌
+
+Microsoft
 NVIDIA
 AMD
-谷歌
 google
-gemini
-deepmind
-chatgpt
-Sam Altman
 openai
-AI
-DeepSeek
-梁文锋
-claude
 Anthropic
+
+Sam Altman
+梁文锋
+黄仁勋
+马斯克
+
 苹果
 库克
 iphone
 ipad
 mac
 ios
-!gai
+
+DeepSeek
+claude
+gemini
+deepmind
+chatgpt
+
 人工智能
 自动驾驶
+ai
+!gai
 
 国产
 中国
 美国
+
 芯片
 光刻机
 科技
@@ -77,6 +83,7 @@ ios
 美元
 日元
 人民币
+
 石油
 黄金
 白银
