@@ -10,11 +10,6 @@ webpack
 rollup
 pinia
 
-华为
-任正非
-鸿蒙
-HarmonyOS
-
 宇树
 王兴兴
 稚晖君
