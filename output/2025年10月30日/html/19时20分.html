@@ -1,0 +1,138 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 175</p><p>生成时间: 2025-10-30 19:20:57</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国 美国</td>
+                <td class="count">7</td>
+                <td class="percentage">4.0%</td>
+                <td class="titles">[凤凰网] <a href="https://news.ifeng.com/c/8ns4o1aiP6D" target="_blank" class="news-link">特朗普已下令立即重启美国核试验</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时20分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%AF%B9%E4%B8%AD%E5%9B%BD%E5%8A%A0%E5%BE%8124%25%E5%85%B3%E7%A8%8E%E5%B0%86%E7%BB%A7%E7%BB%AD%E6%9A%82%E5%81%9C%E4%B8%80%E5%B9%B4" target="_blank" class="news-link">美对中国加征24%关税将继续暂停一年</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时20分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E2%80%9C%E7%BB%BF%E8%89%B2%E5%8A%A8%E5%8A%9B%E2%80%9D%E6%B3%A8%E5%85%A5%E4%BA%9A%E5%A4%AA" target="_blank" class="news-link">中国“绿色动力”注入亚太</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时20分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2186006" target="_blank" class="news-link">习近平同美国总统特朗普在釜山举行会晤</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时20分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31854252" target="_blank" class="news-link">习近平同美国总统特朗普在韩国釜山举行会晤</a> [8] <font color='grey'>- 19时20分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3758273" target="_blank" class="news-link">习近平同美国总统特朗普在釜山举行会晤</a> [10] <font color='grey'>- 19时20分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8nsRb476SBm" target="_blank" class="news-link">中国留学生在日本失联超20天，母亲紧急寻人</a> [12] <font color='grey'>- 19时20分</font></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美元 日元 人民币</td>
+                <td class="count">7</td>
+                <td class="percentage">4.0%</td>
+                <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3758263" target="_blank" class="news-link">中美元首会晤结束</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时20分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7566587793552719878/" target="_blank" class="news-link">特朗普：给中美元首会晤打12分</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时20分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3758264" target="_blank" class="news-link">美股期指震荡走低，日元跌至8个月最低，现货黄金再度涨破4000美元，比特币跌近2%</a> [7] <font color='grey'>- 19时20分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3758225" target="_blank" class="news-link">鲍威尔发布会称12月降息并非必然，美股、美债、黄金、比特币盘中跳水，美元涨</a> [9] <font color='grey'>- 19时20分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7566900170177170995/" target="_blank" class="news-link">中美元首会晤双方代表都有谁</a> [10] <font color='grey'>- 19时20分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7566854727581929010/" target="_blank" class="news-link">中美元首握手合影</a> [22] <font color='grey'>- 19时20分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7566519039041585162/" target="_blank" class="news-link">中美元首会晤开场白传递哪些重磅信息</a> [28] <font color='grey'>- 19时20分</font></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">中考 高考 上海教育 教育</td>
+                <td class="count">2</td>
+                <td class="percentage">1.14%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7566969550554664458/" target="_blank" class="news-link">明年中考厦门将自行命题不实</a> [11] <font color='grey'>- 19时20分</font></div><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E6%98%8E%E5%B9%B4%E4%B8%AD%E8%80%83%E5%8E%A6%E9%97%A8%E8%87%AA%E8%A1%8C%E5%91%BD%E9%A2%98%EF%BC%9F%E8%B0%A3%E8%A8%80" target="_blank" class="news-link">明年中考厦门自行命题？谣言</a> [11] <font color='grey'>- 19时20分</font></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">京东 刘强东 字节 张一鸣 小米 雷军 xiaomi 特斯拉</td>
+                <td class="count">2</td>
+                <td class="percentage">1.14%</td>
+                <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31852446" target="_blank" class="news-link">双十一期间“二选一”？直播间价格竞争？京东、抖音、美的三方回应</a> [6] <font color='grey'>- 19时20分</font><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%89%B9%E6%96%AF%E6%8B%89AI%E5%8F%91%E5%B8%83%E6%9C%80%E6%96%B0%E7%A0%94%E7%A9%B6%E6%88%90%E6%9E%9C" target="_blank" class="news-link">特斯拉AI发布最新研究成果</a> [10] <font color='grey'>- 19时20分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">微软 英伟达 谷歌</td>
+                <td class="count">2</td>
+                <td class="percentage">1.14%</td>
+                <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3758166" target="_blank" class="news-link">鲍威尔意外鹰派，美股盘中转跌，英伟达支撑纳指最终收涨，美债黄金比特币跌，美元拉升</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时20分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E8%8B%B1%E4%BC%9F%E8%BE%BE%E5%B8%82%E5%80%BC%E7%AA%81%E7%A0%B45%E4%B8%87%E4%BA%BF%E7%BE%8E%E5%85%83" target="_blank" class="news-link">英伟达市值突破5万亿美元</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时20分</font></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">石油 黄金 白银 稀有金属 稀土</td>
+                <td class="count">2</td>
+                <td class="percentage">1.14%</td>
+                <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2186448" target="_blank" class="news-link">美方称中方同意暂停实施稀土出口管制措施，外交部回应</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时20分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7566439885410713663/" target="_blank" class="news-link">中方暂停稀土出口管制？外交部回应</a> [7] <font color='grey'>- 19时20分</font></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">Microsoft NVIDIA AMD google openai Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.57%</td>
+                <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2185897" target="_blank" class="news-link">史上最大IPO要来了？OpenAI据称筹备上市 冲击万亿美元估值</a> [6] <font color='grey'>- 19时20分</font></td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td class="word">芯片 光刻机 科技 核能</td>
+                <td class="count">1</td>
+                <td class="percentage">0.57%</td>
+                <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2186324" target="_blank" class="news-link">【每日收评】创业板指放量跌近2%，全市场4100股收绿，量子科技概念逆势活跃</a> [10] <font color='grey'>- 19时20分</font></td>
+            </tr>
+        
+        </table>
+    
+        <div class="new-section">
+            <h3>🆕 本次新增热点新闻 (共 2 条)</h3>
+        <h4>今日头条 (1 条)</h4><ul><li><a href="https://www.toutiao.com/trending/7566969550554664458/" target="_blank" class="news-link">明年中考厦门将自行命题不实</a> [11]</li></ul><h4>bilibili 热搜 (1 条)</h4><ul><li><a href="https://search.bilibili.com/all?keyword=%E7%89%B9%E6%96%AF%E6%8B%89AI%E5%8F%91%E5%B8%83%E6%9C%80%E6%96%B0%E7%A0%94%E7%A9%B6%E6%88%90%E6%9E%9C" target="_blank" class="news-link">特斯拉AI发布最新研究成果</a> [10]</li></ul></div>
+    </body>
+    </html>
+    
